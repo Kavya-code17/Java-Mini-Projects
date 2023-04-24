@@ -169,7 +169,7 @@ public class DragonLadder extends Application {
                 diceLabel.setText("Game Started");
                 startButton.setDisable(true);
                 playerOneTurn = true;
-                playerOneLabel.setText("your Turn " + playerOne.getName());
+                playerOneLabel.setText("Your Turn ");
                 // Enable player one button
                 playerOneButton.setDisable(false);
                 playerOne.startingPosition();
